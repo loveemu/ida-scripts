@@ -1,4 +1,4 @@
-IDA Scripts for Video Game Analysis
-===================================
+IDAPython Scripts for Video Game Analysis
+=========================================
 
-Small IDA scripts for video game analysis.
+Small IDAPython scripts for video game analysis.
