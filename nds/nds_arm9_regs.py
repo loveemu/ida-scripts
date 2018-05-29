@@ -201,5 +201,7 @@ regs = [
 ]
 
 for (ea, name, comment) in regs:
-    idc.MakeName(ea, name)
-    idc.MakeRptCmt(ea, comment)
+    if name:
+        idc.MakeName(ea, name)
+    if comment:
+        idc.MakeRptCmt(ea, comment)
