@@ -156,6 +156,6 @@ regs = [
 
 for (ea, name, comment) in regs:
     if name:
-        idc.MakeName(ea, name)
+        idc.set_name(ea, name, SN_CHECK)
     if comment:
-        idc.MakeRptCmt(ea, comment)
+        idc.set_cmt(ea, comment, 1)
